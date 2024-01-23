@@ -1,3 +1,3 @@
-inherits = "kanagawa"
+inherits = "kaolin-valley-dark"
 
 "ui.background" = { fg = "foregrouind" }
