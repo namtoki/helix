@@ -1,3 +1,4 @@
-inherits = "night_owl"
+inherits = "kaolin-valley-dark"
 
 "ui.background" = { fg = "foregrouind" }
+"comment" = { fg = "gray" }
