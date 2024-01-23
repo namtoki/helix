@@ -31,6 +31,7 @@ character = "▏"
 [keys.normal."space"]
 w = ":write"
 q = ":quit"
+d = ":buffer-close"
 
 [keys.normal]
 # Config
