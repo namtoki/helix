@@ -29,6 +29,7 @@ language-servers = [ "marksman", "scls" ]
 [[language]]
 name = "cpp"
 auto-format = false
+formatter = { command = "clang-format" }
 file-types = ["cpp", "h", "c"]
 indent = { tab-width = 4, unit = "  " }
 language-servers = [ "clangd", "scls" ]
