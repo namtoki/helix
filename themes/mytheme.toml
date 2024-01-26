@@ -1,4 +1,7 @@
 inherits = "kaolin-valley-dark"
 
 "ui.background" = { fg = "foregrouind" }
+"ui.statusline.normal" = { bg = "green" }
+"ui.statusline.insert" = { bg = "red" }
+"ui.statusline.select" = { bg = "blue" }
 "comment" = { fg = "light-blue" }
