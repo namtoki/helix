@@ -36,6 +36,7 @@ w = ":write"
 q = ":quit"
 d = ":buffer-close"
 g = "global_search"
+l = [':sh lazygit']
 
 [keys.normal]
 # Config
