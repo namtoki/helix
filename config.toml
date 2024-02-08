@@ -4,6 +4,7 @@ theme = "mytheme"
 color-modes = true
 true-color = true
 bufferline = "multiple"
+completion-trigger-len = 1
 
 [editor.statusline]
 left = ["mode", "spinner"]
@@ -63,7 +64,6 @@ O = ["open_above", "insert_mode"]
 G = "goto_file_end"
 V = ["select_mode", "extend_to_line_bounds"]
 "*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
-"#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
 "$" = "goto_line_end"
 "^" = "goto_first_nonwhitespace"
 "%" = "match_brackets"
@@ -74,6 +74,7 @@ C-h = "goto_previous_buffer"
 C-l = "goto_next_buffer"
 "{" = ["goto_prev_paragraph", "collapse_selection"]
 "}" = ["goto_next_paragraph", "collapse_selection"]
+"#" = "toggle_comments"
 
 # todo
 # C-h = "select_prev_sibling"
@@ -95,6 +96,7 @@ y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "normal_mode",
 esc = ["collapse_selection", "normal_mode"]
 
 [keys.select]
+"#" = "toggle_comments"
 # Muscle memory
 "{" = ["extend_to_line_bounds", "goto_prev_paragraph"]
 "}" = ["extend_to_line_bounds", "goto_next_paragraph"]
